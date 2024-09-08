@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es2016" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "module": "commonjs" /* Specify what module code is generated. */,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ] /* Specify a set of bundled library declaration files that describe the target runtime environment. */,
+    "jsx": "react-jsx" /* Specify what JSX code is generated. This is recommended for React 17+. */,
+
+    /* Interop Constraints */
+    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. */,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+
+    /* Type Checking */
+    "strict": true /* Enable all strict type-checking options. */,
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+
+    /* Module Resolution */
+    "moduleResolution": "node" /* TypeScript looks up a file from a given module specifier. */,
+    "resolveJsonModule": true /* Enable importing .json files. */,
+    "allowSyntheticDefaultImports": true /* Allow 'import x from y' when a module doesn't have a default export. */,
+    "isolatedModules": true /* Ensure that each file can be safely transpiled without relying on other imports. */,
+
+    /* Source Map Options */
+    "sourceMap": true /* Create source map files for emitted JavaScript files. */,
+
+    /* Output Options */
+    "outDir": "./dist" /* Specify an output folder for all emitted files. */,
+    "removeComments": true /* Disable emitting comments. */
+  },
+  "include": ["src/**/*"] /* Include all TypeScript files in the src folder. */,
+  "exclude": [
+    "node_modules",
+    "dist"
+  ] /* Exclude node_modules and dist folders. */
+}

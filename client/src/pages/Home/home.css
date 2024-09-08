@@ -1,0 +1,33 @@
+.hero-section {
+  background-image: url("./../../assets/hero-bg.jpg");
+  height: 70vh;
+}
+/* home.css */
+
+.hero-text h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.hero-form input {
+  border-right: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+.hero-form .guest {
+  border-right: none;
+}
+
+.hero-form button {
+  background-color: #ff385c;
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero-form button:hover {
+  background-color: #e63950;
+}
